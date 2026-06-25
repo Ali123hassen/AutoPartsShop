@@ -1,0 +1,134 @@
+﻿<Window x:Class="AutoPartsShop.UI.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converters="clr-namespace:AutoPartsShop.UI.Converters"
+        Title="تسجيل الدخول"
+        Height="700" Width="450"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        FlowDirection="RightToLeft"
+        Background="{StaticResource BackgroundBrush}">
+
+    <Window.Resources>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
+        <converters:InvertBoolToVisibilityConverter x:Key="InvertBoolToVis"/>
+        <converters:StringToImageSourceConverter x:Key="StringToImage"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Login Card -->
+        <Border Style="{StaticResource CardStyle}"
+                Grid.Row="0"
+                VerticalAlignment="Center"
+                Margin="30,20"
+                Padding="30">
+            <StackPanel>
+                <!-- App Logo -->
+                <Grid Width="70" Height="70" HorizontalAlignment="Center" Margin="0,0,0,16">
+                    <!-- صورة اللوقو -->
+                    <Border CornerRadius="35" ClipToBounds="True">
+                        <Image Source="{Binding ShopLogoPath, Converter={StaticResource StringToImage}}"
+                               Stretch="Uniform"
+                               HorizontalAlignment="Center" VerticalAlignment="Center"
+                               FlowDirection="LeftToRight"
+                               Visibility="{Binding HasShopLogo, Converter={StaticResource BoolToVisibility}}"/>
+                    </Border>
+                    <!-- نص AP الافتراضي -->
+                    <Border CornerRadius="35" Background="{StaticResource PrimaryBrush}"
+                            Visibility="{Binding HasShopLogo, Converter={StaticResource InvertBoolToVis}}">
+                        <TextBlock Text="AP" FontSize="28" FontWeight="Bold"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <TextBlock Text="{Binding ShopName}"
+                           Style="{StaticResource PageTitleStyle}"
+                           HorizontalAlignment="Center"
+                           FontSize="20"
+                           Margin="0,0,0,4"/>
+
+                <TextBlock Text="المحاسبي"
+                           FontSize="16"
+                           FontWeight="SemiBold"
+                           Foreground="{StaticResource TextSecondaryBrush}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,24"/>
+
+                <!-- Username -->
+                <TextBlock Text="اسم المستخدم" Style="{StaticResource FormLabelStyle}"/>
+                <Border Style="{StaticResource InputGroupStyle}" Margin="0,0,0,16">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="&#xE77B;" FontFamily="Segoe MDL2 Assets" FontSize="16" Margin="10,0,8,0" VerticalAlignment="Center" Foreground="{StaticResource TextSecondaryBrush}"/>
+                        <TextBox Grid.Column="1"
+                                 Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                                 BorderThickness="0"
+                                 Background="Transparent"
+                                 VerticalAlignment="Center"
+                                 Padding="4,6"/>
+                    </Grid>
+                </Border>
+
+                <!-- Password -->
+                <TextBlock Text="كلمة المرور" Style="{StaticResource FormLabelStyle}"/>
+                <Border Style="{StaticResource InputGroupStyle}" Margin="0,0,0,8">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="&#xE72E;" FontFamily="Segoe MDL2 Assets" FontSize="16" Margin="10,0,8,0" VerticalAlignment="Center" Foreground="{StaticResource TextSecondaryBrush}"/>
+                        <PasswordBox x:Name="PasswordBox"
+                                     Grid.Column="1"
+                                     BorderThickness="0"
+                                     Background="Transparent"
+                                     VerticalAlignment="Center"
+                                     Padding="4,6"/>
+                    </Grid>
+                </Border>
+
+                <!-- Error Message -->
+                <TextBlock Text="{Binding ErrorMessage}"
+                           Foreground="{StaticResource DangerBrush}"
+                           FontSize="12"
+                           TextWrapping="Wrap"
+                           Margin="0,4,0,8"
+                           Visibility="{Binding HasError, Converter={StaticResource BoolToVisibility}}"/>
+
+                <!-- Login Button -->
+                <Button Style="{StaticResource PrimaryButton}"
+                        Content="تسجيل الدخول"
+                        Command="{Binding LoginCommand}"
+                        Height="44"
+                        FontSize="15"
+                        Margin="0,16,0,0"/>
+
+                <!-- Loading Indicator -->
+                <StackPanel Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibility}}"
+                            HorizontalAlignment="Center"
+                            Margin="0,12,0,0">
+                    <TextBlock Text="جاري تسجيل الدخول..."
+                               Foreground="{StaticResource TextSecondaryBrush}"
+                               FontSize="12"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- Footer -->
+        <TextBlock Grid.Row="1"
+                   Text="{Binding ShopName, StringFormat='© 2024 نظام {0} المحاسبي'}"
+                   Style="{StaticResource CaptionStyle}"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,16"/>
+    </Grid>
+</Window>

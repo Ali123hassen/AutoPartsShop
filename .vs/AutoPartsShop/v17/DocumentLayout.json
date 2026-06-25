@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\AutoPartsShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\views\\pos\\posview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\views\\pos\\posview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\viewmodels\\spareparteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\viewmodels\\spareparteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\views\\spareparteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\views\\spareparteditview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\views\\spareparteditview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\views\\spareparteditview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\resources\\styles\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\resources\\styles\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|d:\\projects\\autopartsshop\\src\\autopartsshop.ui\\helpers\\textdirectionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C7D8E1-2F3A-4D6B-9C4E-1A3F5D7E9B21}|src\\AutoPartsShop.UI\\AutoPartsShop.UI.csproj|solutionrelative:src\\autopartsshop.ui\\helpers\\textdirectionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-25T12:15:02.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "POSView.xaml",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\POS\\POSView.xaml",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Views\\POS\\POSView.xaml",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\POS\\POSView.xaml",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Views\\POS\\POSView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-25T10:58:22.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SparePartEditViewModel.cs",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\ViewModels\\SparePartEditViewModel.cs",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\ViewModels\\SparePartEditViewModel.cs",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\ViewModels\\SparePartEditViewModel.cs",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\ViewModels\\SparePartEditViewModel.cs",
+              "ViewState": "AgIAABYBAAAAAAAAAAAQwB0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T23:43:01.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommonStyles.xaml",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Resources\\Styles\\CommonStyles.xaml",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Resources\\Styles\\CommonStyles.xaml",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Resources\\Styles\\CommonStyles.xaml",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Resources\\Styles\\CommonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-24T23:46:08.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SparePartEditView.xaml.cs",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml.cs",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml.cs",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml.cs",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T23:44:41.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SparePartEditView.xaml",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Views\\SparePartEditView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-24T23:44:08.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TextDirectionBehavior.cs",
+              "DocumentMoniker": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Helpers\\TextDirectionBehavior.cs",
+              "RelativeDocumentMoniker": "src\\AutoPartsShop.UI\\Helpers\\TextDirectionBehavior.cs",
+              "ToolTip": "D:\\projects\\AutoPartsShop\\src\\AutoPartsShop.UI\\Helpers\\TextDirectionBehavior.cs",
+              "RelativeToolTip": "src\\AutoPartsShop.UI\\Helpers\\TextDirectionBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T01:08:04.445Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
