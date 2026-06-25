@@ -38,10 +38,12 @@ jobs:
           New-Item -Path ${{ runner.temp }}\scanner -ItemType Directory
           dotnet tool update dotnet-sonarscanner --tool-path ${{ runner.temp }}\scanner
       - name: Build and analyze
+        if: ${{ github.event.pull_request == null || github.event.pull_request.head.repo.full_name == github.repository }}
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"Ali123hassen_AutoPartsShop" /o:"ali123hassen" /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          $scanner = "${{ runner.temp }}\scanner\dotnet-sonarscanner"
+          & $scanner begin /k:"Ali123hassen_AutoPartsShop" /o:"ali123hassen" /d:sonar.login="$Env:SONAR_TOKEN"
           dotnet build
-          ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          & $scanner end /d:sonar.login="$Env:SONAR_TOKEN"
